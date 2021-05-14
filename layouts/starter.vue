@@ -4,7 +4,7 @@
     <side-bar
       :background-color="sidebarBackground"
       short-title="CT"
-      title="Creative Tim"
+      title="COM COATZA"
     >
       <template slot-scope="props" slot="links">
         <sidebar-item
@@ -27,7 +27,8 @@
       >
         <zoom-center-transition :duration="200" mode="out-in">
           <!-- your content here -->
-          <router-view></router-view>
+          <nuxt></nuxt>
+         
         </zoom-center-transition>
       </div>
       <content-footer v-if="!isFullScreenRoute"></content-footer>

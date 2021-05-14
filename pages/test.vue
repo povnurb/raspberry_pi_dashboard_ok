@@ -1,4 +1,7 @@
 <template>
-  <div>Ready!</div>
-</template>
+    
+    <div>
+        Bienvenido.
+    </div>
 
+</template>
