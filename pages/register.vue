@@ -79,8 +79,8 @@ export default {
     register(){
       this.$axios.post("/register",this.user)
       .then((res)=>{
-        //exito-Usuario Creado
-        if(res.data.status == "Exito"){
+        console.log(res.data.status);
+        if(res.data.status == "success"){
           this.$notify({
             type:"success",
             icon:"tim-icons icon-check-2",
